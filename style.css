@@ -12,7 +12,7 @@ body {
 .log_container {
   width: 400px;
   border-radius: 8px;
-  padding: 30px;
+  padding: 10px;
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(8px);
@@ -23,12 +23,18 @@ form {
   flex-direction: column;
 }
 
+.log_container p {
+  color: #fff;
+  font: sans-serif;
+  text-align: center;
+  font-size: 10px;
+}
+
 .log_container h1 {
   color: #fff;
   font: sans-serif;
   text-align: center;
-  margin: 30px 0;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .log_container input {

@@ -10,7 +10,8 @@
 
 <body>
     <div class="log_container">
-        <h1>Login</h1>
+        <h1>Palace</h1>
+        <p>Login your account.</p>
         <form method="POST" action="">
             <input type="text" name="username" placeholder="Enter Your Username" required>
             <input type="password" name="password" placeholder="Enter Your Password" required>
