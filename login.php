@@ -15,7 +15,7 @@
         <form method="POST" action="">
             <input type="text" name="username" placeholder="Enter Your Username" required>
             <input type="password" name="password" placeholder="Enter Your Password" required>
-            <p>Don't have an account? <span>Sign up</span></p>
+            <p>Don't have an account? <a href="registration.php" class="pseudolink">Sign up</></a></p>
             <button type="submit" name="login">Login</button>
         </form>
     </div>

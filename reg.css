@@ -9,10 +9,10 @@ body {
   align-items: center;
 }
 
-.log_container {
+.reg_container {
   width: 400px;
   border-radius: 8px;
-  padding: 10px;
+  padding: 5px;
   margin: 30px auto;
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -22,9 +22,14 @@ body {
 form {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.log_container p {
+form input {
+  display: flex;
+  flex-wrap: wrap;
+}
+.reg_container p {
   color: #fff;
   font: sans-serif;
   text-align: center;
@@ -32,7 +37,7 @@ form {
   margin-top: 5px;
 }
 
-.log_container h1 {
+.reg_container h1 {
   color: yellowgreen;
   font: sans-serif;
   text-align: center;
@@ -40,23 +45,21 @@ form {
   margin-bottom: 5px;
 }
 
-.log_container input {
+.reg_container input {
   display: block;
-  width: 300px;
-  margin: 20px auto;
+  width: 250px;
+  margin: 10px auto;
   padding: 15px;
   background: rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   color: #fff;
   border: 1px solid #fff;
 }
-
-.log_container input:focus {
+.reg_container input:focus {
   outline: none;
   border: 1px solid yellowgreen;
   transition: 0.3s;
 }
-
 button {
   width: 300px;
   margin: 30px auto;
@@ -73,6 +76,7 @@ button:hover {
   color: #fff;
   transition: 0.3s;
 }
+
 .pseudolink {
   color: greenyellow;
   text-decoration: underline;
