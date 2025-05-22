@@ -1,0 +1,84 @@
+body {
+  background-image: url("Like_ absolutesciencefiction.gif");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reg_container {
+  width: 400px;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 30px auto;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+form input {
+  display: flex;
+  flex-wrap: wrap;
+}
+.reg_container p {
+  color: #fff;
+  font: sans-serif;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.reg_container h1 {
+  color: yellowgreen;
+  font: sans-serif;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.reg_container input {
+  display: block;
+  width: 250px;
+  margin: 10px auto;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.reg_container input:focus {
+  outline: none;
+  border: 1px solid yellowgreen;
+  transition: 0.3s;
+}
+button {
+  width: 300px;
+  margin: 30px auto;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  color: yellowgreen;
+  border: 1px solid yellowgreen;
+  cursor: pointer;
+}
+
+button:hover {
+  background: yellowgreen;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.pseudolink {
+  color: greenyellow;
+  text-decoration: underline;
+  cursor: pointer;
+}
